@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Monitoring</title>
+    <link rel="stylesheet" href="./plantMonitoring.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Plant Monitoring</h1>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">Plants</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./plants/aloevera.html">Aloe Vera</a></li>
+                            <li><a href="./plants/bostonfern.html">Boston Fern</a></li>
+                            <li><a href="./plants/cactus.html">Cactus</a></li>
+                            <li><a href="./plants/fiddleleaffig.html">Fiddle Leaf Fig</a></li>
+                            <li><a href="./plants/jadeplant.html">Jade Plant</a></li>
+                            <li><a href="./plants/monstera.html">Monstera</a></li>
+                            <li><a href="./plants/peacylily.html">Peace Lily</a></li>
+                            <li><a href="./plants/rubberplant.html">Rubber Plant</a></li>
+                            <li><a href="./plants/snakeplant.html">Snake Plant</a></li>
+                            <li><a href="./plants/spiderplant.html">Spider Plant</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="dashboard">
+        <div class="current-moisture">
+            Current Moisture: <span id="moistureValue">--</span>
+        </div>
+        <div class="chart-container">
+            <canvas id="moistureChart"></canvas>
+        </div>
+        <div id="terminal">
+
+        </div>
+    </div>
+    <script src="./plantMoniroing.js"></script>
+</body>
+</html>

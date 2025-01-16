@@ -1,0 +1,142 @@
+{
+    "plants": [
+      {
+        "name": "Snake Plant",
+        "scientificName": "Sansevieria trifasciata",
+        "moistureThresholds": {
+          "minimum": 20,
+          "optimal": 30,
+          "maximum": 50
+        },
+        "wateringInstructions": {
+          "frequency": "Every 2-3 weeks",
+          "notes": "Allow soil to dry between waterings"
+        }
+      },
+      {
+        "name": "Peace Lily",
+        "scientificName": "Spathiphyllum wallisii",
+        "moistureThresholds": {
+          "minimum": 40,
+          "optimal": 60,
+          "maximum": 80
+        },
+        "wateringInstructions": {
+          "frequency": "Weekly",
+          "notes": "Keep soil consistently moist"
+        }
+      },
+      {
+        "name": "Cactus",
+        "scientificName": "Cactaceae",
+        "moistureThresholds": {
+          "minimum": 10,
+          "optimal": 20,
+          "maximum": 30
+        },
+        "wateringInstructions": {
+          "frequency": "Every 3-4 weeks",
+          "notes": "Prefers dry conditions"
+        }
+      },
+      {
+        "name": "Monstera",
+        "scientificName": "Monstera deliciosa",
+        "moistureThresholds": {
+          "minimum": 30,
+          "optimal": 50,
+          "maximum": 70
+        },
+        "wateringInstructions": {
+          "frequency": "Every 1-2 weeks",
+          "notes": "Allow top inch of soil to dry between waterings"
+        }
+      },
+      {
+        "name": "Aloe Vera",
+        "scientificName": "Aloe barbadensis miller",
+        "moistureThresholds": {
+          "minimum": 5,
+          "optimal": 15,
+          "maximum": 25
+        },
+        "wateringInstructions": {
+          "frequency": "Every 3 weeks",
+          "notes": "Allow soil to dry out completely between waterings"
+        }
+      },
+      {
+        "name": "Fiddle Leaf Fig",
+        "scientificName": "Ficus lyrata",
+        "moistureThresholds": {
+          "minimum": 30,
+          "optimal": 40,
+          "maximum": 60
+        },
+        "wateringInstructions": {
+          "frequency": "Weekly",
+          "notes": "Keep soil evenly moist but not soggy"
+        }
+      },
+      {
+        "name": "Spider Plant",
+        "scientificName": "Chlorophytum comosum",
+        "moistureThresholds": {
+          "minimum": 30,
+          "optimal": 40,
+          "maximum": 70
+        },
+        "wateringInstructions": {
+          "frequency": "Every 1-2 weeks",
+          "notes": "Allow soil to dry out slightly between waterings"
+        }
+      },
+      {
+        "name": "Boston Fern",
+        "scientificName": "Nephrolepis exaltata",
+        "moistureThresholds": {
+          "minimum": 50,
+          "optimal": 60,
+          "maximum": 80
+        },
+        "wateringInstructions": {
+          "frequency": "Weekly",
+          "notes": "Keep soil consistently moist, do not let dry out"
+        }
+      },
+      {
+        "name": "Jade Plant",
+        "scientificName": "Crassula ovata",
+        "moistureThresholds": {
+          "minimum": 10,
+          "optimal": 20,
+          "maximum": 30
+        },
+        "wateringInstructions": {
+          "frequency": "Every 2-3 weeks",
+          "notes": "Allow soil to dry between waterings"
+        }
+      },
+      {
+        "name": "Rubber Plant",
+        "scientificName": "Ficus elastica",
+        "moistureThresholds": {
+          "minimum": 20,
+          "optimal": 40,
+          "maximum": 60
+        },
+        "wateringInstructions": {
+          "frequency": "Every 1-2 weeks",
+          "notes": "Allow top inch of soil to dry between waterings"
+        }
+      }
+    ],
+    "generalGuidelines": {
+      "readingFrequency": "Every 6 hours",
+      "calibrationNotes": "Moisture values are in percentage (0-100%)",
+      "alertThreshold": {
+        "belowMinimum": "Immediate watering required",
+        "aboveMaximum": "Potential overwatering, check drainage"
+      }
+    }
+  }
