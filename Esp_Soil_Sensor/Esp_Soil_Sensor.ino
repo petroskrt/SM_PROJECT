@@ -3,8 +3,8 @@
 #include <ArduinoJson.h>
 
 //wifi settings
-const char *ssid = "Vayan Office";
-const char *password = "B@nana1996";
+const char *ssid = "your ssid";
+const char *password = "your password";
 
 //mqtt broker settings
 const char *mqtt_broker = "broker.emqx.io"; // emqx broker endpoint
