@@ -10,7 +10,7 @@ const { connectionOptions } = require('./connectionCred');
 // Configuration object
 const config = {
     mongodb: {
-        uri: "mongodb+srv://zervaspetros:OmegaLamda7XL9@monitoringcluster.ff92g.mongodb.net/?retryWrites=true&w=majority",
+        uri: "mongodb+srv://<db@username>:<db@password>@monitoringcluster.ff92g.mongodb.net/?retryWrites=true&w=majority",
         dbName: 'plantMonitor',
         collection: 'soilMoistureReadings'
     },
